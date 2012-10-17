@@ -11,7 +11,7 @@ yeli will be listening to POST requests from github servers and will run "git pu
 
 h1. How to setup
 
-* you need to have your cloned repo from github on your server ( for the first time, check out Deploy Keys for private repos)
+* you need to have your cloned repo from github on your server atleast for the first time .( if its a private repo checkout deploy keys in github)
 * install flask "pip install flask"
 * place yeli.py in your repository directory ( on server)
 * run python yeli.py
