@@ -6,7 +6,7 @@ yeli is a small and very simple app written in flask ( A Python MicroFramework),
 
 h1. How does this work
 
-when you push code to github, it sends a POST request to the configured WebHook URL.
+when you push code to github, github sends a POST request to the configured WebHook URL.
 yeli will be listening to POST requests from github servers and will run "git pull" , simple right ?
 
 h1. How to setup
