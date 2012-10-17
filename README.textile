@@ -16,4 +16,4 @@ h1. How to setup
 * place yeli.py in your repository directory ( on server)
 * run python yeli.py
 * On the Github page go to a repository, > “Admin”, “Service Hooks”, 
-“Post-Receive URLs” and add the url of your machine (e.g. http://example.com:5000). 
+“Post-Receive URLs” and add the url of your machine (e.g. http://example.com:5000/pull). 
