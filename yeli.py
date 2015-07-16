@@ -1,12 +1,11 @@
 from subprocess import call
-
 from flask import Flask
 from flask import request
 
 
 app = Flask(__name__)
 
-@app.route('/pull',methods=['POST'])
+@app.route('/pull', methods=['POST'])
 def pull():
 	github_ips = ['207.97.227.253', '50.57.128.197', '108.171.174.178']
 	req_ip = request.remote_addr
